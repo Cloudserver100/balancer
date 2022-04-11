@@ -55,7 +55,7 @@
 					<execution>
 						<id>war-exploded</id>
 						<configuration>
-							<webappDirectory>/usr/share/tomcat/webapps</webappDirectory>
+							<webappDirectory>src/main/webapps</webappDirectory>
 							<archiveClasses>true</archiveClasses>
 						</configuration>
 						<phase>prepare-package</phase>
